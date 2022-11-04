@@ -7,7 +7,7 @@ export default function NavBar() {
     return (
       <View style={styles.NavBar}>
         <Image source={User} />
-        <Text style={styles.NavBarText}>Logo</Text>
+        <Text style={styles.NavBarText}>DoReMi</Text>
         <Image source={Search} />
       </View>
     )

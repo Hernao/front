@@ -20,7 +20,6 @@ export default function Ejercicio ({navigation, route}) {
         </Text>
         <View style={styles.Buttons}>
           <Text style={{ fontSize: 20, padding: 10 }} onPress={()=>navigation.goBack()}>Volver</Text>
-          <Text style={styles.Button}>Ver Reviews</Text>
         </View>
       </View>
     </View>
